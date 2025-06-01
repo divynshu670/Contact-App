@@ -1,16 +1,50 @@
-# contact_app
+# Flutter Contacts App
 
-A new Flutter project.
+## Overview
+
+This Flutter application recreates the core features of the Google Contacts app. It demonstrates contact management functionalities using Flutter and BLoC for state management while following clean architecture principles.
+
+---
+
+## Features Implemented
+
+### Core Features
+- **Contact List**
+  - Scrollable and alphabetically sorted list of contacts
+  - Display of contact name and phone number
+  - Local search functionality to filter contacts by name
+- **Add Contact**
+  - Form with validation for required fields (Name, Phone)
+  - Optional email field
+- **Edit Contact**
+  - Tap on a contact to open a pre-filled form for editing
+- **Delete Contact**
+  - Delete contact via long press or a dedicated delete icon
+
+### Bonus Features
+- Email and phone number format validation
+- Light and dark theme support with smooth switching
+
+---
+
+## Technical Details
+
+- **State Management:** flutter_bloc package
+- **Data Storage:** In-memory list with a repository pattern (no backend or local database)
+- **Architecture:** Clean architecture with separation of data, domain, and presentation layers
+- **Folder Structure:** Modular and clean for maintainability and scalability
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK installed (version 3.0 or above recommended)
+- Dart SDK
+- A device or emulator to run the app
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone <>
