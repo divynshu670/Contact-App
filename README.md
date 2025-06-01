@@ -47,4 +47,4 @@ This Flutter application recreates the core features of the Google Contacts app.
 
 1. Clone the repository:
    ```bash
-   git clone <>
+   git clone <https://github.com/divynshu670/Contact-App.git>
